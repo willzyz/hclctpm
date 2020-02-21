@@ -1,0 +1,30 @@
+schema_version: 2.0.0
+# Warning: The service name must start with “deeplearning_” for automatic Docker copying to work
+service_name: deeplearning_hscls
+service_type: template
+distribution: stretch
+env_vars:
+- name: HSCLS_VERSION
+  value: master
+template:
+  family: michelangelo
+  name: uber-dl-gpu-1.2
+  pre_build_cmds:
+    - RUN rm /usr/bin/python
+    - RUN ln -s /usr/bin/python3 /usr/bin/python
+    - RUN sed -i s/python/python2/ /sbin/log_bash_history
+  build_cmds:
+    - RUN pip install tensorflow-gpu==1.15
+    - RUN HOROVOD_WITH_TENSORFLOW=1 HOROVOD_GPU_ALLREDUCE=NCCL HOROVOD_NCCL_HOME=/usr/local/nccl pip install horovod
+    - RUN apt-get install -y swig
+    - RUN git clone gitolite@code.uber.internal:data/deeplearning_hscls
+    - RUN chmod 777 /home/udocker/deeplearning_hscls/scripts/train_model.py
+    - RUN /bin/bash -c "pip install --no-cache-dir git+ssh://gitolite@code.uber.internal/data/deeplearning_hscls@$HSCLS_VERSION"
+    - RUN mkdir -p /home/udocker/deeplearning_hscls/data
+    - RUN chmod 777 /home/udocker/deeplearning_hscls/data
+applications:
+  - app_type: command_line
+    command_line:
+      run_cmd: 'sleep 0'
+    health_check: none
+    udeploy_app_id: deeplearning_hscls

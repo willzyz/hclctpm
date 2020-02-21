@@ -1,0 +1,4 @@
+import numpy as np, pickle as pkl 
+
+D0 = pkl.load(open('hscls_seqdata_size754547_allcohorts11weeks_save_fixed_new.pkl', 'r'))
+D1 = pkl.load(open('hscls_seqdata_size169692_allcohorts11weekscap4to5_save.pkl', 'r'))

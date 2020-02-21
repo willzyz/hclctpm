@@ -1,0 +1,60 @@
+This is BibTeX, Version 0.99d (TeX Live 2019)
+Capacity: max_strings=100000, hash_size=100000, hash_prime=85009
+The top-level auxiliary file: example_paper.aux
+The style file: icml2019.bst
+Database file #1: references.bib
+Repeated entry---line 229 of file references.bib
+ : @inproceedings{louizos2017causal
+ :                                 ,
+I'm skipping whatever remains of this entry
+Warning--I didn't find a database entry for "pearl"
+Warning--I didn't find a database entry for "rlearner"
+Warning--to sort, need author or key in grflink
+Warning--to sort, need author or key in uscensulink
+Warning--empty year in grflink
+Warning--empty year in uscensulink
+Warning--empty booktitle in huang2013learning
+Warning--empty journal in lunceford04stratification
+Warning--there's a number but no volume in wager2017estimation
+You've used 19 entries,
+            2773 wiz_defined-function locations,
+            697 strings with 8546 characters,
+and the built_in function-call counts, 9824 in all, are:
+= -- 856
+> -- 659
+< -- 13
++ -- 223
+- -- 204
+* -- 798
+:= -- 1467
+add.period$ -- 59
+call.type$ -- 19
+change.case$ -- 124
+chr.to.int$ -- 19
+cite$ -- 47
+duplicate$ -- 424
+empty$ -- 752
+format.name$ -- 235
+if$ -- 2079
+int.to.chr$ -- 1
+int.to.str$ -- 1
+missing$ -- 17
+newline$ -- 103
+num.names$ -- 68
+pop$ -- 280
+preamble$ -- 1
+purify$ -- 106
+quote$ -- 0
+skip$ -- 360
+stack$ -- 0
+substring$ -- 313
+swap$ -- 65
+text.length$ -- 4
+text.prefix$ -- 0
+top$ -- 0
+type$ -- 204
+warning$ -- 7
+while$ -- 72
+width$ -- 0
+write$ -- 244
+(There was 1 error message)

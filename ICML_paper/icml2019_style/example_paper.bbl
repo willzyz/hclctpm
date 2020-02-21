@@ -1,0 +1,139 @@
+\begin{thebibliography}{19}
+\providecommand{\natexlab}[1]{#1}
+\providecommand{\url}[1]{\texttt{#1}}
+\expandafter\ifx\csname urlstyle\endcsname\relax
+  \providecommand{\doi}[1]{doi: #1}\else
+  \providecommand{\doi}{doi: \begingroup \urlstyle{rm}\Url}\fi
+
+\bibitem[grf()]{grflink}
+Grf: Generalized random forests.
+\newblock \url{https://grf-labs.github.io/grf/}.
+\newblock Accessed: 2019-11-15.
+
+\bibitem[usc()]{uscensulink}
+Us census 1990 dataset on uci machine learning repository.
+\newblock \url{https://archive.ics.uci.edu/ml/datasets/US+Census+Data+(1990)}.
+\newblock Accessed: 2019-11-15.
+
+\bibitem[Chen \& Guestrin(2016)Chen and Guestrin]{chen2016xgboost}
+Chen, T. and Guestrin, C.
+\newblock Xgboost: A scalable tree boosting system.
+\newblock In \emph{Proceedings of the 22nd acm sigkdd international conference
+  on knowledge discovery and data mining}, pp.\  785--794. ACM, 2016.
+
+\bibitem[Huang et~al.(2013)Huang, He, Gao, Deng, Acero, and
+  Heck]{huang2013learning}
+Huang, P.-S., He, X., Gao, J., Deng, L., Acero, A., and Heck, L.
+\newblock Learning deep structured semantic models for web search using
+  clickthrough data.
+\newblock ACM International Conference on Information and Knowledge Management
+  (CIKM), October 2013.
+
+\bibitem[Kool et~al.(2017)Kool, Gershman, and Cushman]{kool2017cost}
+Kool, W., Gershman, S.~J., and Cushman, F.~A.
+\newblock Cost-benefit arbitration between multiple reinforcement-learning
+  systems.
+\newblock \emph{Psychological science}, 28\penalty0 (9):\penalty0 1321--1333,
+  2017.
+
+\bibitem[K{\"u}nzel et~al.(2017)K{\"u}nzel, Sekhon, Bickel, and
+  Yu]{kunzel2017meta}
+K{\"u}nzel, S.~R., Sekhon, J.~S., Bickel, P.~J., and Yu, B.
+\newblock Meta-learners for estimating heterogeneous treatment effects using
+  machine learning.
+\newblock \emph{arXiv preprint arXiv:1706.03461}, 2017.
+
+\bibitem[Lim(2018)]{lim2018forecasting}
+Lim, B.
+\newblock Forecasting treatment responses over time using recurrent marginal
+  structural networks.
+\newblock In \emph{Advances in Neural Information Processing Systems}, pp.\
+  7483--7493, 2018.
+
+\bibitem[Louizos et~al.(2017)Louizos, Shalit, Mooij, Sontag, Zemel, and
+  Welling]{louizos2017causal}
+Louizos, C., Shalit, U., Mooij, J.~M., Sontag, D., Zemel, R., and Welling, M.
+\newblock Causal effect inference with deep latent-variable models.
+\newblock In \emph{Advances in Neural Information Processing Systems}, pp.\
+  6446--6456, 2017.
+
+\bibitem[Lunceford \& Davidian(2004)Lunceford and
+  Davidian]{lunceford04stratification}
+Lunceford, J. and Davidian, M.
+\newblock Stratification and weighting via the propensity score in estimation
+  of causal treatment effects: A comparative study.
+\newblock 2004.
+
+\bibitem[Nie \& Wager(2017)Nie and Wager]{nie2017quasi}
+Nie, X. and Wager, S.
+\newblock Quasi-oracle estimation of heterogeneous treatment effects, 2017.
+
+\bibitem[Parbhoo et~al.(2018)Parbhoo, Wieser, and Roth]{parbhoo2018causal}
+Parbhoo, S., Wieser, M., and Roth, V.
+\newblock Causal deep information bottleneck.
+\newblock \emph{arXiv preprint arXiv:1807.02326}, 2018.
+
+\bibitem[Powers et~al.(2017)Powers, Qian, Jung, Schuler, Shah, Hastie, and
+  Tibshirani]{powers2017some}
+Powers, S., Qian, J., Jung, K., Schuler, A., Shah, N.~H., Hastie, T., and
+  Tibshirani, R.
+\newblock Some methods for heterogeneous treatment effect estimation in
+  high-dimensions.
+\newblock \emph{arXiv preprint arXiv:1707.00102}, 2017.
+
+\bibitem[R.S. \& A.G.(2018)R.S. and A.G.]{sutton18reinforcement}
+R.S., S. and A.G., B.
+\newblock \emph{Reinforcement Learning: An Introduction}.
+\newblock MIT Press, 2018.
+
+\bibitem[Rubin(1974)]{rubin1974estimating}
+Rubin, D.~B.
+\newblock Estimating causal effects of treatments in randomized and
+  nonrandomized studies.
+\newblock \emph{Journal of educational Psychology}, 66\penalty0 (5):\penalty0
+  688, 1974.
+
+\bibitem[Rzepakowski \& Jaroszewicz(2012)Rzepakowski and
+  Jaroszewicz]{rzepakowski2012decision}
+Rzepakowski, P. and Jaroszewicz, S.
+\newblock Decision trees for uplift modeling with single and multiple
+  treatments.
+\newblock \emph{Knowledge and Information Systems}, 32\penalty0 (2):\penalty0
+  303--327, 2012.
+
+\bibitem[Shalit et~al.(2017)Shalit, Johansson, and
+  Sontag]{shalit2017estimating}
+Shalit, U., Johansson, F.~D., and Sontag, D.
+\newblock Estimating individual treatment effect: generalization bounds and
+  algorithms.
+\newblock In \emph{Proceedings of the 34th International Conference on Machine
+  Learning-Volume 70}, pp.\  3076--3085. JMLR. org, 2017.
+
+\bibitem[Silver et~al.(2016)Silver, Huang, Maddison, Guez, Sifre, van~den
+  Driessche, Schrittwieser, Antonoglou, Panneershelvam, Lanctot, Dieleman,
+  Grewe, Nham, Kalchbrenner, Sutskever, Lillicrap, Leach, Kavukcuoglu, Graepel,
+  and Hassabis]{silver16master}
+Silver, D., Huang, A., Maddison, C.~J., Guez, A., Sifre, L., van~den Driessche,
+  G., Schrittwieser, J., Antonoglou, I., Panneershelvam, V., Lanctot, M.,
+  Dieleman, S., Grewe, D., Nham, J., Kalchbrenner, N., Sutskever, I.,
+  Lillicrap, T., Leach, M., Kavukcuoglu, K., Graepel, T., and Hassabis, D.
+\newblock Mastering the game of go with deep neural networks and tree search.
+\newblock \emph{Nature}, 529:\penalty0 484--503, 2016.
+\newblock URL
+  \url{http://www.nature.com/nature/journal/v529/n7587/full/nature16961.html}.
+
+\bibitem[Wager \& Athey(2017)Wager and Athey]{wager2017estimation}
+Wager, S. and Athey, S.
+\newblock Estimation and inference of heterogeneous treatment effects using
+  random forests.
+\newblock \emph{Journal of the American Statistical Association}, \penalty0
+  (just-accepted), 2017.
+
+\bibitem[Wager \& Athey(2018)Wager and Athey]{wager2018estimation}
+Wager, S. and Athey, S.
+\newblock Estimation and inference of heterogeneous treatment effects using
+  random forests.
+\newblock \emph{Journal of the American Statistical Association}, 113\penalty0
+  (523):\penalty0 1228--1242, 2018.
+
+\end{thebibliography}

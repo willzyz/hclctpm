@@ -1,0 +1,18 @@
+import os, sys 
+
+for i in range(6): 
+    iter = i + 1 
+    fo = open('batch_ponfare_iter_'+str(iter)+'.py') 
+    f = open('Master_Scaffold_Ponfare_py3_matching_d2dist_stds.py', 'r') 
+    fo.write('global_iter = ' + str(iter)) 
+    fo.write('\n') 
+    
+    line = 1
+    while line: 
+        line = f.readline() 
+        if not line: 
+            break 
+    fo.close() 
+    f.close() 
+
+
